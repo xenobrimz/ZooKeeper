@@ -1,3 +1,4 @@
+package com.java.zoo;
 public class Mamal {
     public int energyLevel = 100;
 
@@ -6,3 +7,4 @@ public class Mamal {
         return energyLevel;
     }
 }
+

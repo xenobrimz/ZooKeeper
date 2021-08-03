@@ -1,9 +1,10 @@
+package com.java.zoo;
 public class Gorilla extends Mamal {
     public int energyLevel = displayEnergy();
 
     public void throwSomething(){
         String[] arr = {"Rock","Mud","Barrel","Coconut","Bolder"};
-        System.out.println("Gorilla throws " + arr[(int)Math.random() * arr.length]);
+        System.out.println("Gorilla throws " + arr[(int)(Math.random() * 4)]);
         energyLevel -= 5;
         System.out.println("[Energy Level]: " + energyLevel);
     }
